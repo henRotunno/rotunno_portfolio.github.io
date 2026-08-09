@@ -1,0 +1,253 @@
+<style>
+   body {
+    background-color: E7DECD;
+   }
+
+   .title {
+    color: 0A122A;
+    text-align:center;
+    margin-bottom: 0;
+    font-size: 70px;
+   }
+
+   .menu {
+    text-align: center;
+    font-size: 15px;
+
+   }
+
+   .menu a {
+    display:inline-block;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+   
+   }
+
+   a:hover{
+    background-color: rgb(239, 239, 151);
+    font-size: 20px;
+   }
+
+   .image_row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+   }
+
+   .image_row img {
+    width: 50px;
+    height: 50px;
+    
+   }
+
+        
+</style>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 class="title">
+            Henry Rotunno
+        </h1>
+
+        <nav class="menu">
+            <a href="homebase.html">Home</a>
+            <a href="gis_home.html">GIS</a>
+            <a href="">Coding_</a>
+            <a href="">Running</a>
+            <a href="2026_Rotunno_Resume.pdf" target="_blank">Resume</a>
+        </nav>
+
+        <div class=image_row>
+            <a href="www.linkedin.com/in/henry-rotunno-85646231a" target="_blank">
+                  <img src="LinkedIn_icon.svg.png">
+            </a>
+          
+            <a href="https://www.strava.com/athletes/59760873" target="_blank">
+                 <img src="aCWW9H1li.png">
+            </a>
+                
+            
+           
+
+            <a href="https://github.com/henRotunno" target="_blank">
+                <img src="25231.png">
+            </a>
+            
+
+            <a href="https://open.spotify.com/user/vengefulfork" target="_blank">
+                <img src="Spotify_App_Logo.svg.webp">
+            </a>
+            
+        </div>
+        
+    </head>
+
+    <body>
+       <h2 style="text-align: center; padding-top:40px;">
+        Who is this guy?
+       </h2>
+
+       <h4 style="text-align:center; margin-left: 10%; margin-right:10%">
+        Greetings! My name is Henry Rotunno. I am twenty one years old and a rising senior at the
+         <span style="color:rgb(251, 134, 9);">University of Illinois</span> at <span style="color:navy"> Urbana Champaign.</span>
+         In 2027 I will graduate with a bachelors of science in Information Science, a minor in Geography and GIS, Certificate in Data Science, and as a member of Gamma Theta Upsilon Honor Society.
+         My coursework includes but is not limited to statistics, machine learning (scikit), Enterprise GIS, ArcGIS Pro, SQL/PostGIS, C++, Java, Python, and data visualization.
+         After university, I plan to leverage the skills I've honed from coursework, projects, and internships to create smart GIS and data driven solutions.
+       </h4>
+
+       <h4 style="text-align: center; margin-left: 10%; margin-right:10%">
+        This summer I am working as a Transportation GIS Intern for the Chicago Metropolitan Agency for Planning. My role consists of various mapping projects that demonstrate 
+        Chicago's prevalence as a railway hub. Furthermore, I utilize ArcGIS Pro and Microsoft Excel to handle and document development requests for northeastern counties in Illinois.
+        During the summer of 2025 I worked at the Village of Roselle Public Works as a GIS Intern. During this occupation I surveyed Roselle with ArcGIS Field Maps and entered over 4000 points 
+        of utility, pipe, and curb data. Finally, I've worked at Home Run Inn Pizza seasonally since 2022 as a busser and cashier. I understand they have frozen pizza at the grocery store,
+        however, you MUST try the food in person, it might just become your go to pizza spot. Personally, I reccomend the Nick's Super and Sweet Caliente pizzas.
+       </h4>
+
+       <h4 style="text-align:center; margin-left: 10%; margin-right:10%">
+        Outside of work and school, I champion an active lifestyle. Going for a run and walking my two beloved dogs (Nita and Penne)
+        is built into my daily routine. Running is an activity that has defined a large part of my life. Despite it's difficulty, I come back to it
+        because I know I'll feel great after completing a distance run. The way running breaks you down and encourages consistency helps me stay grounded
+        and navigate the complete and utter chaos of this life. Another past time of mine is camping. My love for pitching a tent on a random October weekend
+        stems from my experience in Boy Scouts. The process of earning the rank of Eagle Scout involved plenty of camping trips, each of them different from the last.
+        Some of my most fond memories are from the camaraderie that arises from teamwork and sharing a campsite. Finally, I enjoy studying and reading all types of world history.
+        I particularly enjoy reading about 20th and 19th century events. Some of my favorite books are: <em>All Quiet on the Western Front</em>, <em>The Crimean War: A History</em>,
+        <em>Thirteen Days</em>, and <em>the Lord of the Flies</em>.
+       </h4>
+
+
+       <h2 style="text-align:center; padding-top: 20px; margin-left: 20%; margin-right:20%;">
+        The purpose of this website is to document things that are important to me.
+        Furthermore, I want to showcase my technical knowledge and projects. 
+        I developed this site with HTML, CSS, and JavaScript. Feel free to stick around and check out what I've been up to! You might just learn something new.
+       </h2>
+
+
+    </body>
+
+
+    <img src="henry.jpeg" style="height:70%; display:block; margin: 0 auto;">
+
+    <p style="text-align:center;">
+     Yours truly
+    </p>
+
+    <p style="text-align:center"> 
+        I can be reached at henryrotunno@gmail.com
+    </p>
+
+    <hr>
+
+
+     <div class="quote-container" style="text-align:center; padding-top:80px;">
+    <div id="quoteText" class="quote-text"></div>
+    <div id="quoteAuthor" class="quote-author"></div>
+  </div>
+
+
+
+
+
+     <script>
+
+        
+    const motivationalQuotes = [
+      { text: "It is not enough to succeed, others must fail.", author: "Gore Vidal" },
+     { text: "The Pope! How many divisions has he got?", author: "Joseph Stalin" },
+     { text: "The war situation has developed not necessarily to Japan's advantage.", author: "Emperor Hirohito" },
+     { text: "Tora! Tora! Tora!", author: "itsuo Fuchida" },
+     { text: "If you could kick the person in the pants responsible for most of your trouble, you wouldn't sit for a month.", author: "Theodore Roosevelt" },
+      { text: "To educate a person in the mind but not in morals is to educate a menace to society.", author: "Theodore Roosevelt" },
+      { text: "A smooth sea never made a skilled sailor.", author: "Franklin D. Roosevelt" },
+      { text: "Repetition does not transform a lie into a truth.", author: "Franklin D. Roosevelt" },
+      { text: "To educate a person in the mind but not in morals is to educate a menace to society.", author: "Theodore Roosevelt" },
+      { text: "My childhood did not prepare me for the fact that the world is full of cruel and bitter things.", author: "J. Robert Oppenheimer" },
+      { text: "The foolish man seeks happiness in the distance, the wise grows it under his feet.", author: "J. Robert Oppenheimer" },
+        { text: "It is very queer that the unhappiness of the world is so often brought on by small men.", author: "Erich Maria Remarque" },
+        { text: "The first bombardment showed us our mistake, and under it the world as they had taught it to us broke in pieces.", author: "Erich Maria Remarque"},
+         { text: "My childhood did not prepare me for the fact that the world is full of cruel and bitter things.", author: "J. Robert Oppenheimer" },
+        { text: "We did everything adults would do. What went wrong", author: "William Golding" },
+        { text: "Life's scientific, but we don't know, do we? Not certainly, I mean.", author: "William Golding" },
+        { text: "To give someone a piece of your heart, is worth more than all the wealth in the world.", author: "Michael Jackson"},
+        { text: "If you admire somebody, you should go ahead and tell them. People never get the flowers while they can still smell them.", author: "Kanye West"},
+        { text: "How many people want to eat a W tonight?", author: "Jameis Winston"},
+        { text: "We become what we do.", author: "Chang Kai-Shek"},
+         { text: "Man cannot control the current of events. he can only float with them and steer", author: "Otto Von Bismarck"},
+              { text: "If there is ever another war in Europe, it will come out of some damned silly thing in the Balkans.", author: "Otto Von Bismarck"},
+                   { text: "We have become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.", author: "Jimmy Carter"},
+                        { text: "I am a slow walker, but I never walk back.", author: "Abraham Lincoln"},
+            { text: "Destiny may ride with us today, but there is no reason for it to interfere with lunch", author: "Peter the Great"},
+            { text: "I've missed more than 9,000 shots in my career. I've lost almost 300 games. Twenty-six times, I've been trusted to take the game-winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.", author: "Michael Jordan"},
+            { text: "A nation reveals itself not only by the men it produces but also by the men it honors, the men it remembers.", author: "John F. Kennedy"},
+            { text: "A nation of spaghetti eaters cannot restore Roman civilization!", author: "Benito Mussolini"},
+            { text: "Put your iron hand in a velvet glove.", author: "Napoleon Bonaparte"},
+        { text: "You've been watching film too, huh? That's cool. Watch this.", author: "Cam Newton"},
+         {text: "If what you have done yesterday still looks big to you, you haven't done much today.", author: "Mikhail Gorbachev"},
+         { text: "Everything under heaven is in utter choas; the situation is excellent.", author: "Mao Tse-Tung"},
+         { text: "Obviously, we're never going to say what the Krabby Patty secret formula is", author: "Stephen Hillenburg"},
+         { text: "I believe it is peace for our time.", author: "Neville Chamberlain"},
+         { text: "Concert halls play dead people's music.", author: "Barry Harris"},
+         { text: "Nobody who ever gave his best regretted it.", author: "George Halas"},
+         { text: "Once you learn to quit, it becomes a habit.", author: "Vince Lombardi"},
+         { text: "Rome or death!", author: "Giuseppe Garibaldi"},
+         { text: "Our shades shall tread Vienna's streets, roaming the courtyard, striking fear in noble hearts.", author: "Gavrilo Princip"},
+        { text: "I have a terrific headache.", author: "Franklin D. Roosevelt"},
+        { text: "The search for a scapegoat is the easiest of all hunting expeditions.", author: "Dwight D. Eisenhower"},
+        { text: "Our present control of the sea is so absolute that it is sometimes taken for granted.", author: "Chester W. Nimitz"},
+        { text: "War is the continuation of politics by other means.", author: "Carl Von Clausewitz"},
+        { text: "No human is limited.", author: "Eliud Kipchoge"},
+        { text: "The best time to plant a tree was 25 years ago. The second-best time to plant a tree is today.", author: "Eliud Kipchoge"},
+        //{ text: "", author: ""},
+        { text: "There are decades where nothing happens; and there are weeks where decades happen.", author: "Vladimir Lenin"},
+        { text: "Every society is three meals away from chaos.", author: "Vladimir Lenin"},
+        { text: "What counts is not necessarily the size of the dog in the fight - it's the size of the fight in the dog.", author: "Dwight D. Eisenhower"},
+        { text: "No enemy bomber can reach the Ruhr. If one reaches the Ruhr, my name is not Göring. You may call me Meyer.", author: "Hermann Meyer"},
+        { text: "I think we may be going a bridge too far.", author: "Frederick Browning"},
+        { text: "NUTS!", author: "Anthony McAuliffe"},
+        { text: "In three words I can sum up everything I’ve learned about life: it goes on.", author: "Robert Frost"},
+        { text: "Strive not to be a success, but rather to be of value.", author: "Albert Einstein"},
+        { text: "Happiness is not something ready made. It comes from your own actions.", author: "Dalai Lama"},
+        { text: "Crazy? I was crazy once."},
+        { text: "Politicians are the same all over. They promise to build a bridge even where there is no river.", author: "Nikita Krushchev"},
+         { text: "Politicians are the same all over. They promise to build a bridge even where there is no river.", author: "Nikita Krushchev"},
+        { text: "Success is stumbling from failure to failure with no loss of enthusiasm", author: "Winston Churchill"},
+        { text: "If you want to make enemies, try to change something.", author: "Woodrow Wilson"},
+        { text: "It is amazing what you can accomplish if you do not care who gets the credit.", author: "Harry S. Truman"},
+        { text: "The Republicans believe in the minimum wage -- the more the minimum, the better.", author: "Harry S. Truman"},
+        { text: "Once a decision was made, I didn't worry about it afterward...", author: "Harry S. Truman"},
+        { text: "I met him, 15 years ago; I was told there was nothing left; no reason, no conscience, no understanding in even the most rudimentary sense of life or death, of good or evil, right or wrong. I met this... six-year-old child with this blank, pale, emotionless face, and... the blackest eyes - the Devil's eyes. I spent eight years trying to reach him, and then another seven trying to keep him locked up, because I realized that what was living behind that boy's eyes was purely and simply... evil.", author: "Donald Pleasence (Halloween)"},
+        { text: "The problems we face, did not come down from the heavens. They are made, they are made by bad human decisions, and good human decisions can change them.", author: "Bernie Sanders"},
+        { text: "Nuff said!", author: "Stan Lee"},
+        { text: "I cherish the memories of a question my grandson asked me the other day when he said, 'Grandpa, were you a hero in the war?' Grandpa said, 'No, but I served in a company of heroes.'", author: "Richard D. Winters"},
+        { text: "China is a big country, inhabited by many Chinese.", author: "Charles de Gaulle"},
+        { text: "People react to fear, not love; they don't teach that in Sunday School, but it's true.", author: "Richard Nixon"},
+        { text: "I am not a crook.", author: "Richard Nixon"},
+        { text: "In the midst of chaos, there is also opportunity.", author: "Sun Tzu"},
+        { text: "What is a friend? A single soul dwelling in two bodies.", author: "Aristotle"},
+        { text: "Look closely. The beautiful may be small.", author: "Immanuel Kant"},
+        { text: "Es ist gut", author: "Immanuel Kant"},
+        { text: "If you have an idea that you genuinely think is good, don't let some idiot talk you out of it.", author: "Stan Lee"},
+        { text: "Give me a woman who loves beer and I will conquer the world.", author:"Kaiser Wilhelm"},
+        { text: "Give me a woman who loves beer and I will conquer the world.", author:"Kaiser Wilhelm"},
+        { text: "The past history of our globe must be explained by what can be seen to be happening now. No powers are to be employed that are not natural to the globe, no action to be admitted except those of which we know the principle", author: "James Hutton"},
+        { text: "Rules are not necessarily sacred, principles are.", author: "Franklin D. Roosevelt"},
+        { text: "Whenever you find yourself on the side of the majority, it is time to pause and reflect.", author: "Mark Twain"},
+        { text: "I love deadlines. I love the whooshing noise they make as they go by.", author: "Douglas Adams"},
+    ];
+
+
+
+
+    function displayRandomQuote() {
+      const randomIndex = Math.floor(Math.random() * motivationalQuotes.length);
+      const randomQuote = motivationalQuotes[randomIndex];
+      document.getElementById("quoteText").textContent = `"${randomQuote.text}"`;
+      document.getElementById("quoteAuthor").textContent = `- ${randomQuote.author}`;
+    }
+    window.onload = displayRandomQuote;
+    </script>
+
+
+</html>
