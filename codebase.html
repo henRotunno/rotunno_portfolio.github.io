@@ -2,7 +2,7 @@
 
 <style>
     body {
-        background-color:lightgrey
+    background-color:lightgrey
      }
      .menu {
     text-align: center;
@@ -18,6 +18,28 @@
     background-color: rgb(114, 209, 223);
     font-size: 20px;
    }
+
+   
+   .gallery {
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 46%);
+    margin: 5px auto; 
+    width: 350px;
+   }
+   .gallery .description {
+        padding: 10px;
+        text-align:center;
+   }
+   .gallery:hover{
+        border: 1px solid hsl(0, 0%, 2%)
+   }
+   .gallery img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+
+   }
+
 </style>
 
 <html>
@@ -36,6 +58,29 @@
             <a href="2026_Rotunno_Resume.pdf" target="_blank">Resume</a>
         </nav>
     </head>
+
+    <body>
+        <div class="gallery">
+            <a target="_blank" href="kloa_script.pdf">
+                <img src="kloa.png" alt="ArcPy SATF">
+            </a>
+            <div class="description">SATF ArcPy Automation</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="att_to_req.pdf">
+                <img src="attribute_to_requester.png" alt="Script PDF">
+            </a>
+            <div class="description">ArcPy Attribute Table to Excel</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="cta.html">
+                <img src="cta_df.png" alt="Jupyter Notebook">
+            </a>
+            <div class="description">Geopandas Chicago Public Transportation</div>
+        </div>
+    </body>
 
 
 
